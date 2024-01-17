@@ -1,0 +1,167 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+  padding: 25px 98px;
+}
+
+header {
+  padding: 25px 102px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  height: 98px;
+}
+
+.logo,
+.navigation,
+.menu {
+  height: 50px;
+  vertical-align: middle;
+}
+.menu {
+  display: none;
+}
+.logo {
+  left: 0;
+  cursor: pointer;
+}
+
+.navigation {
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+.list {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.logo img,
+.test img {
+  max-height: 100%;
+}
+
+.banner {
+  background-image: url(../Images/Rectangle.png);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 98px;
+}
+
+.discovergreece {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.bannertitle {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 79px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.bannertext {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.discover-name {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.discover-title {
+  color: #010101;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.discover {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: flex-start;
+}
+.discover-text {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 30px;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-bottom: 80px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 286px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.boxtitle {
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 25px;
+  cursor: pointer;
+}
+
+.boxtext {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 10px;
+}

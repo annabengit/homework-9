@@ -1,0 +1,149 @@
+/* For mobile phones */
+@media only screen and (max-width: 481px) {
+  header {
+    padding: 15px;
+  }
+  .list {
+    display: none;
+  }
+  .menu {
+    display: block;
+    width: 34px;
+  }
+  .container1 {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .banner {
+    background-image: url(../Images/Rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 260px;
+    width: auto;
+  }
+
+  .bannertitle {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+  }
+
+  .bannertext {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .discover {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .boxes {
+    margin-bottom: 0;
+  }
+  .box {
+    margin-left: 0;
+    margin-bottom: 20px;
+    width: auto;
+  }
+  .discover-text {
+    padding-top: 10px;
+  }
+  .list {
+    background-color: rgba(242, 240, 240, 0.862);
+  }
+}
+
+/* For tablets - ipad air */
+@media only screen and (min-width: 820px) and (max-width: 1030px) {
+  header {
+    justify-content: space-around;
+  }
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner {
+    background-size: cover;
+    /background-position: center;
+    min-height: 400px;
+  }
+
+  .bannertitle {
+    font-size: 60px;
+  }
+
+  .bannertext {
+    font-size: 25px;
+  }
+
+  .discover {
+    width: 630px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+  }
+  .boxes {
+    justify-content: space-around;
+  }
+  .box {
+    margin-bottom: 30px;
+    width: 300px;
+    justify-content: flex-start;
+  }
+  .discover-text {
+    padding-top: 15px;
+  }
+}
+
+/* For tablets - ipad mini */
+
+@media only screen and (min-width: 482px) and (max-width: 819px) {
+  .list {
+    margin-left: 25px;
+  }
+  .navigation {
+    justify-content: space-between;
+  }
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner {
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+  }
+
+  .bannertitle {
+    font-size: 60px;
+  }
+
+  .bannertext {
+    font-size: 25px;
+  }
+
+  .discover {
+    width: 600px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+  }
+  .boxes {
+    justify-content: space-around;
+  }
+  .box {
+    margin-bottom: 30px;
+    width: 630px;
+    justify-content: flex-start;
+  }
+  .discover-text {
+    padding-top: 15px;
+  }
+}
