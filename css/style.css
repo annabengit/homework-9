@@ -54,7 +54,7 @@ header {
 }
 
 .banner {
-  background-image: url(../Images/Rectangle.png);
+  background-image: url(../images/Rectangle.png);
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
   min-height: 600px;
